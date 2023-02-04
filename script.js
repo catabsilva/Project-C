@@ -45,6 +45,18 @@ document.addEventListener('click', function(event) {
       
         campo.value += event.target.value 
       }  
+    else if (event.target.value === '+') {
+      
+        campo.value += event.target.value 
+      }
+    else if (event.target.value === '-') {
+      
+        campo.value += event.target.value 
+      }  
+    else if (event.target.value === '/') {
+      
+        campo.value += event.target.value 
+      }  
 
     else if (event.target.value === '=') {
         // Use the eval() function to evaluate the expression in the input field
@@ -59,3 +71,4 @@ function limpar() {
 function multiplicar() {
     campo.value += '*'
 }
+
