@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="calculadora">
+        <input id="entrada" type="text">
+        
+        <div id="botoes">
+            <input onclick="limpar()" id="tecla-c" type="button" value="C">
+            <input type="button" value="/">
+            <input onclick="multiplicar ()" type="button" value="x">
+            <br>
+            <input type="button" class="numero" value="7">
+            <input type="button" class="numero" value="8">
+            <input type="button" class="numero" value="9">
+            <input onclick="operacoes ()" type="button" value="-">
+            <br>
+            <input type="button" class="numero" value="4">
+            <input type="button" class="numero" value="5">
+            <input type="button" class="numero" value="6">
+            <input onclick="operacoes ()" type="button" value="+">
+            <br>
+            <input type="button" class="numero"value="1">
+            <input type="button" class="numero" value="2">
+            <input type="button" class="numero" value="3">
+            <input onclick="eval(campo.value)" id="tecla-igual" type="button" value="=">
+            <br>
+            <input id="tecla-zero"type="button" value="0">
+            <input type="button" value=".">
+        </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

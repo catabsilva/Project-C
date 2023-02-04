@@ -1,0 +1,58 @@
+* {margin: 0px;
+   padding: 0px;}
+
+body {
+    background-color: rgba(195, 37, 37, 0.242);
+}
+
+div#calculadora {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width:244px;
+    height: 310px;
+    padding: 30px 15px;
+    margin: auto;
+    margin-top: 150px;}
+
+div#botoes {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+input#entrada {
+    margin-top: 200px;
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 30px;
+    padding-left: 15px;
+}
+
+input {
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    margin: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+    border: 1px solid #ccc;
+}
+
+input[type=button]:hover {
+    background-color: rgba(128, 128, 128, 0.463);
+}
+
+input#tecla-c {
+    width: 102px;
+}
+
+input#tecla-zero {
+    width: 102px;
+}
+
+input#tecla-igual {
+    float: right;
+    height: 102px;
+}
+
